@@ -25,7 +25,7 @@ contract MobileDealership
     string memory purchaseDate,string memory warranty,
     uint altNumber) public
     {
-        m[msg.sender] = Mobile(msg.sender,ownerName,_seller,price,pwd,purchaseDate,warranty,altNumber);
+        m[msg.sender] = Mobile(msg.sender, ownerName,_seller,price,pwd,purchaseDate,warranty,altNumber);
     }
     
     
